@@ -1,0 +1,11 @@
+framework module PlayMaker {
+  umbrella header "PlayMaker.h"
+
+  export *
+  module * { export * }
+}
+
+module PlayMaker.Swift {
+    header "PlayMaker-Swift.h"
+    requires objc
+}
